@@ -42,7 +42,8 @@ elif p == 3:
         print ("Prismayang Anda car belum tersedia di Kalkulator ini")
 elif p == 4:
     jKerucut = int(input("Masukkan jari-jari kerucut: "))
-    tKerucut = int(input(""))
+    tKerucut = int(input("Masukkan tinggi kerucut: "))
+    print ("Volume kerucut tersebut adalah ", 1/3*3.14*jKerucut*jKerucut*tKerucut)
 
 
 
